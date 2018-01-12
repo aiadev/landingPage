@@ -1,0 +1,355 @@
+.html{
+    position: relative;
+    display: block;
+    height: auto;
+}
+html, body {
+    overflow-x: hidden;
+}
+.container-fluid{
+    padding-right: 0;
+    font-family: 'Jaldi', sans-serif;
+}
+.violeta{
+    color: #663399;
+}
+.violetaBg{
+    background-color: #663399;
+}
+.grisBg{
+    background-color: #f3f3f3;
+}
+.blancoBg{
+    background-color: #fff;
+}
+.sdw{
+    background-image: url("../../img/sdw1.png");
+    background-repeat: repeat-x;
+}
+.sdw2{
+    background-image: url("../../img/sdw2.png");
+    background-repeat: repeat-x;
+    background-position: bottom;
+}
+.container-fluid{
+    padding-left: 0;
+    overflow: hidden;
+}
+.container{
+    max-width: 1100px;
+    text-align: center;
+}
+.encabezado{
+    color: #fff;
+    padding: 0;
+    max-height: 138px;
+}
+.encabezado .logo img{
+    max-height: 138px;
+}
+.encabezado .iconoTel{
+    display: inline-block;
+}
+.encabezado .telefono{
+    padding: 15px 15px 12px 15px;
+    font-family: 'Lato', sans-serif;
+    vertical-align: middle;
+}
+.encabezado .telefono .medicina{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 30px;
+    padding: 24px 0 6px 0;
+    display: block;
+}
+.encabezado .telefono .numeroTel{
+    display: inline-block;
+    line-height: 21px;
+    padding: 0;
+    font-size: 30px;
+}
+.encabezado .telefono .numeroTel.dos{
+    padding-left: 15px;
+}
+.encabezado .telefono i{
+    font-size: 45px;
+    vertical-align: middle;
+}
+.caja1{
+    padding: 0;
+}
+.row.contieneBanner{
+    height: auto;
+    max-height: 370px;
+}
+.seccionBanner .imgBanner{
+    overflow: hidden;
+    max-height: 370px;
+}
+.textoBanner{
+    right: 0;
+    position: absolute;
+    bottom: 7%;
+    background-color: rgba(255,255,255,0.7);
+    padding: 21px;
+    width: 100%;
+}
+h1{
+    margin: 3px 0 0 0;
+}
+.textoBanner .titulo{
+    font-size: 45px;
+    line-height: 47px;
+    font-weight: 700;
+}
+.textoBanner .subtitulo{
+    display: inline-block;
+    font-size: 30px;
+    line-height: 27px;
+    font-weight: 700;
+}
+/* FORMULARIO CONTACTO */
+.formulario{
+    padding: 15px;
+    border-radius: 0 36px;
+}
+.seccionFormulario .margen{
+    height: 17px;
+}
+.formulario .formTitulo{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 25px;
+    font-family: 'Lato', sans-serif;
+}
+.formulario .enviarBtn{
+    background-color: #00ffff;
+    color: #000;
+    font-weight: 700;
+    font-size: 19px;
+    padding: 0px 30px;
+}
+/* general*/
+.caja3 .titulo,
+.caja4 .titulo{
+    font-size: 33px;
+    line-height: 33px;
+    font-weight: 700;
+    padding: 21px 6px;
+}
+.descripcion{
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 25px;
+}
+.caja2{
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.caja2 .seccion{
+    height: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+@media (min-width: 510px) {
+    .caja2 .seccion{
+        min-height: 142px;
+    }
+    .callButton,
+    .espacioCallButton{
+        display: none;
+    }
+}
+@media (max-width: 509px) {
+    .callButton,
+    .espacioCallButton{
+        display: block;
+    }
+    .encabezado .logo img{
+        max-height: 120px;
+    }
+    .encabezado .telefono .numeroTel.dos{
+        padding-left: 18px;
+    }
+    .caja2 .seccion{
+        min-height: 172px;
+        padding-bottom: 0;
+    }
+    .textoBanner{
+        bottom: 0;
+        padding: 0 21px 9px 21px;
+        text-align: center;
+    }
+    .textoBanner .titulo{
+        font-size: 39px;
+    }
+}
+@media (max-width: 766px) {
+    .encabezado .telefono{
+        padding-top: 0;
+    }
+    .encabezado .telefono .numeroTel{
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .encabezado .telefono .medicina{
+        font-size: 22px;
+        line-height: 22px;
+        padding-top: 0;
+    }
+}
+.caja2 .seccion i{
+    color: #663399;
+    font-size: 36px;
+}
+.caja2 .seccion .detalle{
+    padding: 9px 15px;
+}
+.caja3{
+    padding: 15px;
+    padding-bottom: 36px;
+}
+.caja4{
+    padding: 0;
+    margin: 0;
+    padding-bottom: 36px;
+}
+.mapa{
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%
+}
+.mapa iframe{
+    border: none;
+    width: 100%;
+}
+.pie{
+    position: relative;
+    color: #fff;
+    padding-bottom: 21px;
+    font-size: 21px;
+}
+.pie img{
+    height: 120px;
+    margin: auto auto;
+    padding-bottom: 3px;
+}
+.pie .titulo{
+    font-size: 27px;
+}
+.form-group {
+    margin: 9px;
+}
+.form-control{
+    padding: 3px 12px;
+    line-height: 27px;
+    height: 30px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.form-control{
+    border-radius: 0 15px 0 0;
+}
+.form-control.curvoAbajo{
+    border-radius: 0 15px 0 15px;
+}
+
+/* PLACEHOLDER */
+.form-control::-webkit-input-placeholder{
+    color: #555;
+    font-size: 16px;
+}
+.form-control:-moz-placeholder{
+    color: #555;
+    font-size: 16px;
+}
+.form-control:-ms-input-placeholder{
+    color: #555;
+    font-size: 16px;
+}
+.form-control::-moz-placeholder{
+    color: #555;
+    font-size: 16px;
+}
+textarea{
+    resize: vertical;
+}
+.pie .direccion,
+.pie .tel{
+    line-height: 27px;
+    padding-top: 12px;
+}
+.gracias{
+    height: 370px;
+}
+.gracias .graciasText{
+    font-size: 27px;
+    padding: 30px;
+    line-height: 33px;
+}
+.gracias .volver{
+    padding-top: 15px;
+}
+.gracias a{
+    font-size: 24px;
+}
+.pieAbajo{
+	bottom: 0;
+    width: 100%;
+}
+.callButton{
+    background-color: #33cc00;
+    color: #fff;
+    border: 1px solid #339933;
+    text-align: center;
+    width: 63px;
+    height: 63px;
+    padding-top: 9px;
+    position: fixed;
+    bottom: 12px;
+    transform: translate(-50%, 0);
+    left: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+.callButton i{
+    font-size: 49px;
+}
+a.callButton:link,
+a.callButton:visited{
+    color: #fff;
+}
+a.callButton:hover,
+a.callButton:active{
+    text-decoration: none;
+    color: #333;
+    background-color: #00ffff;
+    border: 1px solid #00ccff;
+}
+.espacioCallButton{
+    height: 63px;
+}
+a.AIAdev:link,
+a.AIAdev:visited{
+    position: absolute;
+    right: 18px;
+    bottom: 18px;
+    font-size: 15px;
+    color: #9966cc;
+    opacity: 0.5;
+}
+.AIAtxt,
+.AIAimg{
+    display: inline-block;
+}
+a.AIAdev:hover,
+a.AIAdev:active{
+    opacity: 1;
+    text-decoration: none;
+}
+a.AIAdev img{
+    width: 20px;
+    height: auto;
+}
